@@ -45,18 +45,49 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Instalação
 
+1. Clone o repositório para sua máquina local:
+
+    ```bash
+    git clone https://github.com/dev-rabelo/cda-challenge
+    ```
+
+2. Navegue até o diretório do projeto:
+
+    ```bash
+    cd cda-challenge
+    ```
+
+3. Instale as dependências do projeto:
+
+    Com npm:
+    ```bash
+    npm install
+    ```
+
+    Com Yarn:
+    ```bash
+    yarn install
+    ```
+
+## Configuração
+
+1. Crie um arquivo `.env` na raiz do projeto e adicione as variáveis de ambiente necessárias.
+
+## Executando a Aplicação
+
+Para iniciar a aplicação em modo de desenvolvimento, use:
+
+Com npm:
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+npm run start:dev
 ```
+
+## Documentação Swagger
+ Para acessar a documentação basta entrar na rota `{{url}}/api`
+
+Todas as rotas listadas na documentação do swagger tem as seguintes documentações do nestjsx crud, que foi a lib ultilizada para facilitar e adiantar o tempo de desenvolvimento dos CRUD's
 
 ## Support
 
